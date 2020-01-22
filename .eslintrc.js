@@ -11,7 +11,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    jasmine: true,
+    jasmine: true
   },
   globals: {
     shallow: true
@@ -41,7 +41,7 @@ module.exports = {
     'implicit-arrow-linebreak': ["error", "beside"],
     'indent': ["error", 2],
     'jsx-quotes': ["error", "prefer-double"],
-    'react/jsx-closing-bracket-location': ['error', 'after-props'],
+    'react/jsx-closing-bracket-location': ['error', 'after-props']
   },
   settings: {
     react: {
